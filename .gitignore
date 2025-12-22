@@ -1,0 +1,27 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Logs and results
+logs.txt
+*.log
+test_results.log
+fuzz_results.log
+
+# Data / backups
+tasks.txt
+tasks.txt.tmp
+backups/
+
+# IDE / misc
+.idea/
+.vscode/
+*.sqlite
+
