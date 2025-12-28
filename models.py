@@ -1,6 +1,4 @@
-﻿from __future__ import annotations
-
-from dataclasses import dataclass
+﻿from dataclasses import dataclass
 from typing import Any, Dict
 
 
@@ -8,7 +6,7 @@ from typing import Any, Dict
 class Task:
     id: int
     title: str
-    priority: str  # low | normal | high
+    priority: str
     is_done: bool
 
     def to_dict(self) -> Dict[str, Any]:
