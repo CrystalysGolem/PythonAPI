@@ -6,7 +6,7 @@ HTTP-сервер для управления списком дел.
 
 - title: (str)
 - priority: "low" | "normal" | "high" (str)
-- isDone: выполнено ли дело (bool)
+- isDone: (bool)
 - id: (int)
 
 ## API
